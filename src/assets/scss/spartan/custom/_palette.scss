@@ -4,6 +4,7 @@ $card-background: #00000048;
 $card-alt-background: rgba(0, 0, 0, 0.171);
 $button-background: #0000004b;
 $nav-background: #0000006b;
+$footer-bg: #000;
 $main-panel-back1: rgba(41, 34, 34, 0.5);
 $main-panel-back2: rgba(41, 34, 34, 0.9);
 $main-panel-lin-grad1: rgba(79, 71, 71, 0.2);
@@ -54,6 +55,11 @@ body {
   height: 67px;
   background-color: rgba(64, 54, 54, 1);
   background: $nav-background;
+}
+
+.footer {
+  border-top: 1px solid #00000020;
+  background: $footer-bg;
 }
 
 .main-panel {
